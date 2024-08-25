@@ -7,5 +7,6 @@ SplashScreenController::SplashScreenController(QObject *parent)
 
 void SplashScreenController::removeSplashScreen()
 {
+
     QNativeInterface::QAndroidApplication::hideSplashScreen(1);
 }

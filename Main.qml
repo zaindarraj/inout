@@ -23,6 +23,7 @@ ApplicationWindow {
         asynchronous: true
         visible: status == Loader.Ready
         onLoaded: {
+            console.log("asdasd")
             splashController.removeSplashScreen()
         }
     }

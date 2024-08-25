@@ -21,6 +21,7 @@ qt_add_qml_module(appInOut
         android/src/main/MainActivtiy.java
         RESOURCES android/AndroidManifest.xml
         SOURCES splashscreencontroller.h splashscreencontroller.cpp
+        RESOURCES android/res/values/themes.xml
 )
 qt_add_resources(appInOut "app_images"
     PREFIX "/"
